@@ -1,0 +1,101 @@
+/* General styles for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #3498db;
+    padding-top: 20px;
+}
+
+/* Styling for h2 elements */
+h2 {
+    color: #2c3e50;
+    margin-top: 40px;
+}
+
+/* Style for emphasized text (em) */
+em {
+    font-style: italic;
+    color: #e74c3c;
+}
+
+/* Style for links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style for lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Class for the "smart" tag */
+smart {
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+/* Specific styles for the "My Moods" section */
+#happy-mood {
+    width: 150px;
+}
+
+#sad-mood {
+    width: 500px;
+}
+
+/* Make sure the layout is responsive */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p, ul, ol {
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
